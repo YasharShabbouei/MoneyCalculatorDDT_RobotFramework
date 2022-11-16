@@ -1,0 +1,10 @@
+#Fixed Deposit Calculator
+Principal = "xpath://input[@id='principal']"
+RateOfInterest = "xpath://input[@id='interest']"
+PeriodOne = "xpath://input[@id='tenure']"
+PeriodTwo = "xpath://select[@id='tenurePeriod']"
+Frequency = "xpath://select[@id='frequency']"
+btn_Calculate = "xpath://img[@src='https://images.moneycontrol.com/images/mf_revamp/btn_calcutate.gif']"
+MaturityValue = "xpath://span[@id='resp_matval']/strong"
+btn_clear = "xpath://*[@id='fdMatVal']/div[2]/a[2]/img"
+btn_confirm = "xpath://button[@id='wzrk-confirm']"
